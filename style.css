@@ -42,6 +42,13 @@ html {
   to { bottom: 20px; }
 }
 
+.hero .logo {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 120px;
+}
+
 .hero .content {
   position: relative;
   top: 50%;
