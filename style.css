@@ -2,9 +2,9 @@ html {
   background: white;
 }
 
-body {
-  background: red;
-  width: 1000px;
+body, .hero {
+  width: 90%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -13,8 +13,50 @@ body {
   float: left;
 }
 
-div {
-  width: 50%;
-  float: left;
-  background: blue;
+.hero {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  height: 100%;
+  text-align: center;
+  min-height: 300px;
+  padding: 1px 0px;
+}
+
+.hero .keepgoing {
+  color: #fff;
+  font-size: 2em;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  opacity: .5;
+  animation: bounce 1s ease infinite;
+}
+
+
+@keyframes bounce {
+  from { bottom: 20px; }
+  70% { bottom: 10px; }
+  to { bottom: 20px; }
+}
+
+.hero .content {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0 auto;
+  display: block;
+  text-align: justify;
+  color: #333;
+  padding: 0;
+  border-radius: .2em;
+  overflow: auto;
+}
+
+.content h1 {
+  padding: 0;
 }
