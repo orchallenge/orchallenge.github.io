@@ -91,7 +91,7 @@ html {
   }
 
   .hero {
-    background-position: center bottom;
+    background-position: center top;
     background-image: url("orc_small.jpg");
   }
 
@@ -105,5 +105,6 @@ html {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+    text-align: left;
   }
 }
