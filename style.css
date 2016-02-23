@@ -85,9 +85,10 @@ html {
 
   .hero .logo {
     position: absolute;
+    /*left: 10px;*/
     left: auto;
-    top: 10px;
-    right: 20px;
+    top: 0px;
+    right: 10px;
     width: 100px;
   }
 
