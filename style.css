@@ -2,12 +2,6 @@ html {
   background: white;
 }
 
-body, .hero {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
 .main {
   width: 50%;
   float: left;
@@ -21,6 +15,12 @@ body, .hero {
   text-align: center;
   min-height: 300px;
   padding: 1px 0px;
+  background-position: center center;
+  background-color: #fff;
+  background-image: url("orc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .hero .keepgoing {
@@ -55,8 +55,39 @@ body, .hero {
   padding: 0;
   border-radius: .2em;
   overflow: auto;
+  width: 600px;
+  max-width: 40%;
+  margin-left: 40%;
+  background: #fff;
+  background: rgba(255, 255, 255, .9);
+  padding: 1em;
 }
 
 .content h1 {
   padding: 0;
+  line-height: 1em;
+  text-align: left;
+}
+
+.content .button {
+  margin: 0;
+}
+
+@media all and (max-width: 800px) {
+
+  .hero {
+    background-position: center bottom;
+    background-image: url("orc_small.jpg");
+  }
+
+  .hero .content {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+    margin: 0 auto;
+    top: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
 }
