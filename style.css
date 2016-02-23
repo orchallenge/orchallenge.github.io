@@ -46,7 +46,8 @@ html {
   position: absolute;
   top: 10px;
   left: 30px;
-  width: 120px;
+  width: 140px;
+  z-index: 1;
 }
 
 .hero .content {
@@ -82,6 +83,13 @@ html {
 
 @media all and (max-width: 800px) {
 
+  .hero .logo {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 100px;
+  }
+
   .hero {
     background-position: center bottom;
     background-image: url("orc_small.jpg");
@@ -90,6 +98,7 @@ html {
   .hero .content {
     width: 100%;
     max-width: 100%;
+    padding: 1em 1em 1em 120px;
     border-radius: 0;
     margin: 0 auto;
     top: 0;
