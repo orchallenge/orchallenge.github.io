@@ -83,13 +83,18 @@ html {
 }
 
 main {
-  width: 100%;
+  width: 90%;
   max-width: 800px;
   margin: 0 auto;
 }
 
-section.row {
+h2 {
+  text-align: center;
   margin-top: 50px;
+}
+
+section.row {
+  margin-top: 30px;
 }
 
 section .graphic {
@@ -101,6 +106,9 @@ section img {
   margin: 0 10%;
 }
 
+.small {
+  display: none;
+}
 
 @media all and (max-width: 800px) {
 
@@ -135,4 +143,16 @@ section img {
     transform: none;
     text-align: left;
   }
+
+  section .graphic {
+    width: 90%;
+  }
+
+  .small {
+    display: block;
+  }
+  .large {
+    display: none;
+  }
+
 }
