@@ -102,9 +102,9 @@
 
       <section class="row">
         <div class="text">
-          <p>¿Quieres patrocinarnos o tienes alguna pregunta? Escríbenos a la derecha o al email <a href=""></a></p>
+          <p>¿Quieres patrocinarnos o tienes alguna pregunta? Escríbenos a la derecha o al email <a class="emaillink" href=""></a></p>
         </div>
-        <form class="text">
+        <form class="text" action="//formspree.io/your@email.com" method="POST">
           <input required name="name" class="stack" placeholder="Nombre">
           <input required name="email" type="email" class="stack" placeholder="Email">
           <textarea name="message" class="stack" placeholder="Mensaje"></textarea>
@@ -113,5 +113,12 @@
       </section>
 
     </main>
+
+    <script>
+      var email = document.querySelector('.emaillink');
+      var emaillink = 'contact' + 'o' + '@' + 'orchallenge.es';
+      email.innerHTML = emaillink;
+      email.setAttribute('href', 'mailto:' + emaillink);
+    </script>
   </body>
 </html>
