@@ -214,6 +214,14 @@ section.sponsors img {
 }
 
 @media all and (max-width: 40em) {
+
+  section.sponsors .row > *,
+  section.sponsors img {
+    width: calc(100% - 20px);
+    float: left;
+    margin: 10px;
+  }
+
   .sponsorus {
     font-size: 1rem;
   }
