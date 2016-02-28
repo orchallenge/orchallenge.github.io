@@ -17,7 +17,7 @@ html {
   padding: 1px 0px;
   background-position: center center;
   background-color: #cacbcf;
-  background-image: url("orc.jpg");
+  background-image: url("img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -81,6 +81,26 @@ html {
   margin: 0;
 }
 
+main {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section.row {
+  margin-top: 50px;
+}
+
+section .graphic {
+  width: 40%;
+}
+
+section img {
+  width: 80%;
+  margin: 0 10%;
+}
+
+
 @media all and (max-width: 800px) {
 
   .hero .logo {
@@ -94,7 +114,7 @@ html {
 
   .hero {
     background-position: center top;
-    background-image: url("orc_small.jpg");
+    background-image: url("img/hero_small.jpg");
   }
 
   .content h1 {
