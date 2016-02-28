@@ -25,10 +25,11 @@ html {
 
 .hero .keepgoing {
   color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 2em;
   position: absolute;
   bottom: 10px;
-  width: 100%;
   text-align: center;
   transition: all 0.5s ease 0s;
   opacity: .5;
