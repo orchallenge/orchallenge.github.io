@@ -64,9 +64,9 @@ html {
   padding: 0;
   border-radius: .2em;
   overflow: auto;
-  width: 600px;
-  max-width: 40%;
-  margin-left: 40%;
+  width: 45%;
+  max-width: 500px;
+  margin-left: 50%;
   background: #fff;
   background: rgba(255, 255, 255, .9);
   padding: 1em;
