@@ -146,6 +146,7 @@ section img {
 
   section .graphic {
     width: 90%;
+    margin: 0 5%;
   }
 
   .small {
