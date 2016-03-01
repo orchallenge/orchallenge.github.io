@@ -120,6 +120,11 @@
     </main>
 
     <script>
+      if (window.location.protocol != "https:") {
+        window.location.protocol = "https";
+      }
+
+
       var email = document.querySelector('.emaillink');
       var emaillink = 'or' + 'c' + '@' + 'makersupv.com';
       email.innerHTML = emaillink;
