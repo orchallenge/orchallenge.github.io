@@ -313,7 +313,7 @@ footer a {
   .hebocon {
   height: 100vh;
   background-position: center top;
-  background-image: url("img/taller2.jpg");
+  background-image: url("img/back_hebo.jpg");
 }
 
   .content h1 {
@@ -346,6 +346,19 @@ footer a {
     transform: none;
     text-align: left;
   }
+
+  .hebocon .content {
+  width: 100%;
+  max-width: 100%;
+  padding: 1em;
+  border-radius: 0;
+  margin: 0 auto;
+  top: 0;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  text-align: left;
+}
 }
 
 @media all and (max-width: 60em) {
